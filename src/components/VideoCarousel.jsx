@@ -187,7 +187,7 @@ const VideoCarousel = () => {
 
                             <div className="absolute top-12 left-[5%] z-10">
                                 {list.textLists.map((text, i) => (
-                                    <p key={i} className="md:text-2xl text-xl font-medium">
+                                    <p key={i} className="md:text-2xl text-xl font-medium ">
                                         {text}
                                     </p>
                                 ))}
@@ -202,7 +202,7 @@ const VideoCarousel = () => {
                     {videoRef.current.map((_, i) => (
                         <span
                             key={i}
-                            className="mx-2 w-3 h-3 bg-gray-200 rounded-full relative cursor-pointer"
+                            className="mx-2 w-3 h-3 bg-gray-200 rounded-full relative"
                             ref={(el) => (videoDivRef.current[i] = el)}
                         >
               <span
