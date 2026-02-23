@@ -1,12 +1,20 @@
-# React + Vite
+# 📱 iPhone 15 Pro – High-End Creative Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a high-fidelity visual exploration of the iPhone 15 Pro landing page. It focuses on recreating Apple's signature "Cinematic" feel through advanced web animations and 3D rendering.
 
-Currently, two official plugins are available:
+### ✨ Key Highlights
+* **GSAP & ScrollTrigger:** Implemented complex scroll-bound animations where elements move and transform based on user interaction.
+* **Three.js Integration:** Features a fully interactive 3D model of the iPhone 15 Pro, allowing users to view the device from any angle with realistic textures.
+* **Dynamic Video Carousel:** Custom-built video player with state-controlled playback and smooth transitions between product features.
+* **Responsive Storytelling:** The layout adjusts dynamically to maintain the "premium" feel on mobile, tablet, and desktop.
+* **Performance Tuning:** Utilized React Suspense and specialized loaders to ensure high-resolution 3D models don't lag the UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+### 🧪 Technical Challenges
+* **3D Optimization:** Managing the memory footprint of GLTF models within a React lifecycle.
+* **Animation Synchronization:** Coordinating multiple GSAP timelines to trigger exactly at specific scroll percentages.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 🛠️ Development Stack
+* **Core:** React.js
+* **Animation:** GSAP (GreenSock)
+* **3D Graphics:** Three.js & React Three Fiber
+* **Styling:** Tailwind CSS
